@@ -1,6 +1,6 @@
-savetiddlers created by Jeffrey Wilkinson AKA buggyj
+tiddlystay created by Jeffrey Wilkinson AKA buggyj
 
-Copyright © Jeffrey Wilkinson 2017
+Copyright © Jeffrey Wilkinson 2023
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
