@@ -1,0 +1,21 @@
+{
+    "name": "tiddlystay",
+    "version": "0.1",
+    "manifest_version": 3,
+     
+	"action": {
+	},
+    "content_scripts" : [{
+		"js" 		: ["contentscript.js"],
+		"matches" 	: ["<all_urls>"],
+		"run_at" 	: "document_start"
+	}],
+    "background": {
+		"service_worker": "background.js"
+    },
+	"short_name": "twstay",
+
+	"permissions": [],
+    "host_permissions": ["<all_urls>"],
+	"web_accessible_resources": [{"resources":["script.js"],"matches": ["<all_urls>"]}]
+}
